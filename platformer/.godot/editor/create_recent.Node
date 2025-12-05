@@ -1,0 +1,14 @@
+CollisionShape2D
+AudioStreamPlayer2D
+Sprite2D
+Button
+Label
+VBoxContainer
+CenterContainer
+Control
+Area2D
+Camera2D
+Node
+Timer
+AnimatedSprite2D
+CharacterBody2D

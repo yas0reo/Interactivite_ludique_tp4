@@ -1,0 +1,131 @@
+[gd_scene load_steps=9 format=3 uid="uid://bfv22rsmcqby0"]
+
+[ext_resource type="Script" uid="uid://bm5ikfsvpglaq" path="res://main_menu.gd" id="1_wugcc"]
+[ext_resource type="Texture2D" uid="uid://d0t7rkllpr3jf" path="res://Assets/Level/6axfm8uck3oy.png" id="2_gtid3"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dnfjo"]
+texture = ExtResource("2_gtid3")
+modulate_color = Color(0.259294, 0.259294, 0.259294, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wugcc"]
+bg_color = Color(0.274581, 0.662788, 0.724244, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gtid3"]
+bg_color = Color(0.067066, 0.267145, 0.403416, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m625n"]
+bg_color = Color(0.247059, 0.458824, 0.72549, 1)
+corner_radius_top_left = 40
+corner_radius_top_right = 40
+corner_radius_bottom_right = 40
+corner_radius_bottom_left = 40
+shadow_size = 12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wtjmy"]
+bg_color = Color(0.301961, 0.6, 0.6, 1)
+corner_radius_top_left = 40
+corner_radius_top_right = 40
+corner_radius_bottom_right = 40
+corner_radius_bottom_left = 40
+
+[sub_resource type="FontFile" id="FontFile_257up"]
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/40/0/ascent = 0.0
+cache/0/40/0/descent = 0.0
+cache/0/40/0/underline_position = 0.0
+cache/0/40/0/underline_thickness = 0.0
+cache/0/40/0/scale = 1.0
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = 1.0
+offset_right = 2.0
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wugcc")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_dnfjo")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -225.0
+offset_top = -183.5
+offset_right = 225.0
+offset_bottom = 183.5
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_constants/separation = 45
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+theme_override_styles/hover_pressed_mirrored = SubResource("StyleBoxFlat_wugcc")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_gtid3")
+theme_override_styles/normal = SubResource("StyleBoxFlat_m625n")
+text = "Start Game"
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+theme_override_styles/focus = SubResource("StyleBoxFlat_wtjmy")
+theme_override_styles/normal = SubResource("StyleBoxFlat_m625n")
+text = "Options
+"
+
+[node name="Button3" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+theme_override_styles/focus = SubResource("StyleBoxFlat_wtjmy")
+theme_override_styles/normal = SubResource("StyleBoxFlat_m625n")
+text = "Exit"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -173.0
+offset_top = 47.0
+offset_right = 170.0
+offset_bottom = 109.0
+grow_horizontal = 2
+theme_override_fonts/font = SubResource("FontFile_257up")
+theme_override_font_sizes/font_size = 40
+text = "Tp2 - Platformer"
+uppercase = true
+
+[node name="OptionsPopup" type="PopupPanel" parent="."]
+title = "A and D to move, W to jump, Space to dash, Shift to run"
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_options_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button3" to="." method="_on_exit_pressed"]

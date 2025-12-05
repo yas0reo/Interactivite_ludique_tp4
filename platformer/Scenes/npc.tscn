@@ -1,0 +1,101 @@
+[gd_scene load_steps=10 format=3 uid="uid://d32tl21kgxxu7"]
+
+[ext_resource type="Script" uid="uid://b2oienvpumst7" path="res://Scenes/npc.gd" id="1_acqhf"]
+[ext_resource type="Texture2D" uid="uid://bmb738ddsfhfb" path="res://Assets/Sprites/9 - NPC King/Elder King on Ornate Throne_spritesheet.png" id="2_xxsvc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xxsvc"]
+atlas = ExtResource("2_xxsvc")
+region = Rect2(856, 512, 428, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g6unj"]
+atlas = ExtResource("2_xxsvc")
+region = Rect2(0, 0, 428, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h1ryf"]
+atlas = ExtResource("2_xxsvc")
+region = Rect2(428, 0, 428, 512)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ig1v"]
+atlas = ExtResource("2_xxsvc")
+region = Rect2(856, 0, 428, 512)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_npc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xxsvc")
+}],
+"loop": false,
+"name": &"idle",
+"speed": 2.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g6unj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h1ryf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ig1v")
+}],
+"loop": true,
+"name": &"interacted",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_interact"]
+radius = 106.381
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xxsvc"]
+size = Vector2(293, 223)
+
+[node name="NPC" type="CharacterBody2D"]
+script = ExtResource("1_acqhf")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-1.00001, -11)
+scale = Vector2(0.598131, 0.492188)
+sprite_frames = SubResource("SpriteFrames_npc")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-6, 18)
+shape = SubResource("CircleShape2D_interact")
+
+[node name="InteractionArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea"]
+position = Vector2(-0.5, 9.5)
+shape = SubResource("RectangleShape2D_xxsvc")
+
+[node name="InteractionPrompt" type="Label" parent="."]
+offset_left = -60.0
+offset_top = -80.0
+offset_right = 60.0
+offset_bottom = -54.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 4
+theme_override_font_sizes/font_size = 14
+text = "Press E to interact"
+horizontal_alignment = 1
+
+[node name="DialoguePanel" type="PanelContainer" parent="."]
+offset_left = -150.0
+offset_top = -140.0
+offset_right = 150.0
+offset_bottom = -60.0
+
+[node name="MarginContainer" type="MarginContainer" parent="DialoguePanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="DialogueLabel" type="Label" parent="DialoguePanel/MarginContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "Hello, traveler! Welcome to my humble village."
+autowrap_mode = 3

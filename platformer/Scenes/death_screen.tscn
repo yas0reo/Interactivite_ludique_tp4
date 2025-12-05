@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=3 uid="uid://34khiww5fr3n"]
+
+[ext_resource type="Script" uid="uid://dxy2o4l15om2f" path="res://Scenes/death_screen.gd" id="1_8hps1"]
+[ext_resource type="Texture2D" uid="uid://b3n6fk5ok48c7" path="res://Assets/Image/death_scene.png" id="2_rwas2"]
+[ext_resource type="AudioStream" uid="uid://qcdgkb4upa7d" path="res://Assets/Music and sound/GameOver.mp3" id="3_tseak"]
+
+[node name="DeathScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1151.0
+offset_bottom = 647.0
+script = ExtResource("1_8hps1")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 125.0
+offset_top = 64.0
+offset_right = 459.0
+offset_bottom = 265.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 61
+text = "YOU HAVE DIED"
+
+[node name="Button" type="Button" parent="CenterContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 31
+text = "Restart?"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(576, 328)
+scale = Vector2(0.774088, 0.661377)
+texture = ExtResource("2_rwas2")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_tseak")
+autoplay = true
