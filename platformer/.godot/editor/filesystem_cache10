@@ -1,13 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1764339911
+::res://::1765080618
 export_presets.cfg::TextFile/TextFile::-1::1760728046::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::7108210864453910207::1760728046::1760728142::1::::<><><>0<>0<>969ee89e3c41eba8d06b89e1ca47b079<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://Assets/::1764044204
+::res://Assets/::1765078961
 ::res://Assets/Image/::1763738384
 death_scene.png::CompressedTexture2D/CompressedTexture2D::4380436944334341040::1763738253::1763738329::1::::<><><>0<>0<>c509ce13603de15e77cfecadfd5d936c<>res://.godot/imported/death_scene.png-5e182a9194d5c34a7a41e1fd8efa0848.ctex::
 Menu_scene.png::CompressedTexture2D/CompressedTexture2D::5808945148559113108::1763738375::1763738384::1::::<><><>0<>0<>44545b0ed09dfef7c5ffbc539413aa20<>res://.godot/imported/Menu_scene.png-68fcd9b4f8b1ba708723d1a9b7f95136.ctex::
 Win_scene.png::CompressedTexture2D/CompressedTexture2D::1775652337573445180::1763738073::1763738079::1::::<><><>0<>0<>9cf55dfed0a3db55dc7da55ddf7d55f6<>res://.godot/imported/Win_scene.png-cfd1f39c36b650344bbd8a33916e55cd.ctex::
-::res://Assets/Level_design/::1763696616
+::res://Assets/Level_design/::1765079064
 0_Template_Tileset.png::CompressedTexture2D/CompressedTexture2D::1148028642627336852::1760728046::1762968830::1::::<><><>0<>0<>904ac345025c60e0fee9e79f3cf0ae63<>res://.godot/imported/0_Template_Tileset.png-43e4a0153c3c89cdc8176d732e1c955b.ctex::
 1_Mine_Tileset_1.png::CompressedTexture2D/CompressedTexture2D::3092787848219581186::1760728046::1762968830::1::::<><><>0<>0<>c1aed1a163afa4a69510f33103060758<>res://.godot/imported/1_Mine_Tileset_1.png-a6c3983779b4f88f8da066282f56b47c.ctex::
 2_Mine_Tileset_1_Background.png::CompressedTexture2D/CompressedTexture2D::8903623622151468867::1760728046::1762968830::1::::<><><>0<>0<>0d823488a6d2bfa340e05fa5c33bdb3d<>res://.godot/imported/2_Mine_Tileset_1_Background.png-ecc091c576e1e710b2553f95983ed3d4.ctex::
@@ -19,6 +19,39 @@ Door.png::CompressedTexture2D/CompressedTexture2D::6315507579706437994::17636965
 image.jpg::CompressedTexture2D/CompressedTexture2D::5694701225663351885::1763696613::1763696616::1::::<><><>0<>0<>6893bfb7ceba742f4498fb1c2ebce5bd<>res://.godot/imported/image.jpg-1143c467f44151fdb767a3caf4672fd0.ctex::
 Mine_Tileset_1B.png::CompressedTexture2D/CompressedTexture2D::5286292658210311679::1760728046::1762968830::1::::<><><>0<>0<>494babab28a0a0bbbbb203b3f5f60757<>res://.godot/imported/Mine_Tileset_1B.png-124a733ae39ec6f82c8cacf25dd5e556.ctex::
 Mine_Tileset_1B_Background.png::CompressedTexture2D/CompressedTexture2D::6242194970959001749::1760728046::1762968830::1::::<><><>0<>0<>9ef497dcff8eefd21e3c4a7f20b56aec<>res://.godot/imported/Mine_Tileset_1B_Background.png-62ef0e99607f30022ff47dbd087ab277.ctex::
+::res://Assets/Level_design/dungeon_sidescroller-Raou/::1765081052
+spr_torch.png::CompressedTexture2D/CompressedTexture2D::1508062520048653279::1563485020::1765079352::1::::<><><>0<>0<>46a56d28556f8e74b6068de06be17420<>res://.godot/imported/spr_torch.png-7f4bac93765ab0dd415e1722f34281dc.ctex::
+Tilesetv3.png::CompressedTexture2D/CompressedTexture2D::9119896181604594926::1765081022::1765081057::1::::<><><>0<>0<>467b55e5e6a6a75033853a9c146bd0a4<>res://.godot/imported/Tilesetv3.png-b5547172894c5fd84e05a8011757b7f8.ctex::
+Tilesetv3Bigger.png::CompressedTexture2D::7601465655985777574::1765081053::1765081057::1::::<><><>0<>0<>037565a7fa9108653edc9f93dcece728<>res://.godot/imported/Tilesetv3Bigger.png-a4aa34491b6897a9132bd2e78a531b1c.ctex::
+::res://Assets/Level_design/Final- Generic DUNGEON Pack/::1765078957
+Autor_note.txt::TextFile/TextFile::-1::1572326424::0::1::::<><><>0<>0<><>::
+release.txt::TextFile/TextFile::-1::1544816916::0::1::::<><><>0<>0<><>::
+::res://Assets/Level_design/Final- Generic DUNGEON Pack/Assets/::1765079352
+Assets.png::CompressedTexture2D/CompressedTexture2D::4686082456680000098::1572326244::1765079352::1::::<><><>0<>0<>512079a6b7f1af40bac82114ec0e1ea4<>res://.godot/imported/Assets.png-81561ecaa27fb76d55cc7fdf9318be16.ctex::
+Background_1.png::CompressedTexture2D/CompressedTexture2D::8674039968042830994::1560841194::1765079352::1::::<><><>0<>0<>6b5ed09708a5ef6bb412f8863411a36c<>res://.godot/imported/Background_1.png-3384d8d127c97d99263516e144eda1ab.ctex::
+Background_2.png::CompressedTexture2D/CompressedTexture2D::787346665793237698::1560841202::1765079352::1::::<><><>0<>0<>31762169e7b1b6d22ad115cde18811ba<>res://.godot/imported/Background_2.png-9159103729367a44843443e7e6d2a541.ctex::
+Character_Sprite_Sheet.png::CompressedTexture2D/CompressedTexture2D::3419480697708707775::1572388790::1765079352::1::::<><><>0<>0<>fd39d2719b8f64f0acbc8de33cbd558d<>res://.godot/imported/Character_Sprite_Sheet.png-282c1cc04583a4c85e53cd9edaaf23cb.ctex::
+::res://Assets/Level_design/Final- Generic DUNGEON Pack/Social/::1765079352
+Assets.png::CompressedTexture2D/CompressedTexture2D::5979500943185453579::1572388450::1765079352::1::::<><><>0<>0<>9b2eb98303dc8bfd8a2d0e618bc84035<>res://.godot/imported/Assets.png-9b34e9796012eae16a8745d85b1c7133.ctex::
+Test.png::CompressedTexture2D/CompressedTexture2D::2797968733062347928::1572326168::1765079352::1::::<><><>0<>0<>7217325c7d2b1343472ddb4501b9cd82<>res://.godot/imported/Test.png-335b55c9c886f82dfe226b2a06387cdc.ctex::
+Test_2.png::CompressedTexture2D/CompressedTexture2D::3430330788396318853::1572326206::1765079352::1::::<><><>0<>0<>1b907c36655acfd592efb9bd566b2bd2<>res://.godot/imported/Test_2.png-d895423cbd7734275a3ea10b5c8db6ec.ctex::
+::res://Assets/Level_design/Fort of Illusion Files/::1765078957
+public-license.txt::TextFile/TextFile::-1::1644262168::0::1::::<><><>0<>0<><>::
+::res://Assets/Level_design/Fort of Illusion Files/Layers/::1765079352
+all-props.png::CompressedTexture2D/CompressedTexture2D::2618481585180804869::1657672881::1765079352::1::::<><><>0<>0<>9d836fe008ec6c0dd5acd3c51032dc41<>res://.godot/imported/all-props.png-a2d3bbd2e76ccddf57ff169c8b4eb29d.ctex::
+back.png::CompressedTexture2D/CompressedTexture2D::6649806812664605877::1657670603::1765079352::1::::<><><>0<>0<>bb4043951f675ad29075d007b6057fca<>res://.godot/imported/back.png-a2fcdb774d27571f72098172f0b204db.ctex::
+front.png::CompressedTexture2D/CompressedTexture2D::8203938980188507055::1657672859::1765079352::1::::<><><>0<>0<>9602649678d55d6b40c36f27eee9858a<>res://.godot/imported/front.png-8fecdc9b566a6db0a4d746f23022ee04.ctex::
+mountains.png::CompressedTexture2D/CompressedTexture2D::5143368644479503181::1657670628::1765079352::1::::<><><>0<>0<>9585df32ac7b5119060318f9517bf0c6<>res://.godot/imported/mountains.png-bacb785225de601fbf14c6ce737dc47b.ctex::
+tileset.png::CompressedTexture2D/CompressedTexture2D::2297611529834869166::1657672803::1765079352::1::::<><><>0<>0<>e613a3d170b68c35c9c31f133afd89a8<>res://.godot/imported/tileset.png-f0dd9bd2ab36050ebc16fe4f6609f128.ctex::
+::res://Assets/Level_design/Fort of Illusion Files/Layers/Props/::1765079352
+banner.png::CompressedTexture2D/CompressedTexture2D::242496131112104375::1657672954::1765079352::1::::<><><>0<>0<>8864e7de44f3f0d5ca0739ab31c6110c<>res://.godot/imported/banner.png-bb8f4e4f274c4ff3412ac32bbb86c72e.ctex::
+closed-door.png::CompressedTexture2D/CompressedTexture2D::2167670424927485085::1657672968::1765079352::1::::<><><>0<>0<>ce42d42e9014c9d908624378d15f6524<>res://.godot/imported/closed-door.png-c185312a658abaf980edaae29230c111.ctex::
+door.png::CompressedTexture2D/CompressedTexture2D::4707064876613218213::1657672989::1765079352::1::::<><><>0<>0<>1e4616b1c6618d01e152243c55c668c5<>res://.godot/imported/door.png-158d56c625ad511cc5c74145017088cc.ctex::
+flag.png::CompressedTexture2D/CompressedTexture2D::6426835126573036351::1657673022::1765079352::1::::<><><>0<>0<>b24e84d187e166bcdfb45bd6de2da17c<>res://.godot/imported/flag.png-479008df1f079337fa75fb7a6d7b6377.ctex::
+window.png::CompressedTexture2D/CompressedTexture2D::7316595063271502296::1657673097::1765079352::1::::<><><>0<>0<>4115244619bba10165168ced2d1cc3a1<>res://.godot/imported/window.png-201bac5e3f6af2899381e65916731384.ctex::
+::res://Assets/Level_design/Fort of Illusion Files/Previews/::1765079352
+Fort-of-Illusion.png::CompressedTexture2D/CompressedTexture2D::7360782790614253810::1657670332::1765079352::1::::<><><>0<>0<>21a07e484a7d82386656fb11185606f6<>res://.godot/imported/Fort-of-Illusion.png-fb3128f3b5ad4ad8873b0b093c95272f.ctex::
+Fort-of-Illusionx3.png::CompressedTexture2D/CompressedTexture2D::6982508424299956636::1657670338::1765079352::1::::<><><>0<>0<>a6e0cb92bb8c361dcd5330cfa6660c0f<>res://.godot/imported/Fort-of-Illusionx3.png-6f760c9439d679fcb950cb2bfb25c20f.ctex::
 ::res://Assets/Music and sound/::1763921041
 Attack1.mp3::AudioStreamMP3/AudioStreamMP3::7866061125205331668::1763047203::1763058238::1::::<><><>0<>0<>099daee68e811d3ed6102994eefab988<>res://.godot/imported/Attack1.mp3-003af0b34f0ea83ce2138ee08f40b1db.mp3str::
 Attack2.mp3::AudioStreamMP3/AudioStreamMP3::6090957473665233327::1763047220::1763058238::1::::<><><>0<>0<>6304c967a74bfb2b06b16b113c3bbb3b<>res://.godot/imported/Attack2.mp3-631ad10922d246991bf2a1c71a25a5d7.mp3str::
@@ -35,7 +68,7 @@ Menu_Music.mp3::AudioStreamMP3/AudioStreamMP3::6551598546989600234::1763737497::
 sword slash (sound effects).mp3::AudioStreamMP3/AudioStreamMP3::3418179330567072448::1763047171::1763047594::1::::<><><>0<>0<>8bc4b6195f0111ec80105143015c7360<>res://.godot/imported/sword slash (sound effects).mp3-b38ab8976f3e62a0cc8db54a1d442d1a.mp3str::
 Tutorial_Music.mp3::AudioStreamMP3/AudioStreamMP3::5196951243560434889::1763046560::1763046567::1::::<><><>0<>0<>02c7bed20975178ff3e889b63af87bfb<>res://.godot/imported/Tutorial_Music.mp3-364ace7f485bf4a6104f775ef14bcb99.mp3str::
 win_sound.mp3::AudioStreamMP3/AudioStreamMP3::3656396394966606975::1763744302::1763744307::1::::<><><>0<>0<>c9570e53a35b984a5ca3998ca0e8eda8<>res://.godot/imported/win_sound.mp3-1bacb635e419cd163cd7a9284e5ecf0f.mp3str::
-::res://Assets/Sprites/::1764044947
+::res://Assets/Sprites/::1765079059
 ::res://Assets/Sprites/1-Knight/::1762887651
 ::res://Assets/Sprites/1-Knight/attack1/::1762968830
 _Attack.png::CompressedTexture2D/CompressedTexture2D::6070135428403599855::1762887589::1762968830::1::::<><><>0<>0<>6507eedd3838877d10187a7da1a6c19e<>res://.godot/imported/_Attack.png-2adfd27bab0b6b8ddb992fbe21ec9ac2.ctex::
@@ -117,12 +150,14 @@ Skeleton_01_White_Walk.png::CompressedTexture2D/CompressedTexture2D::70893540225
 ::res://Assets/Sprites/6-Boss_NightBorne/::1762968830
 NightBorne.png::CompressedTexture2D/CompressedTexture2D::6217434301724384735::1762881828::1762968830::1::::<><><>0<>0<>a06aa76ee5631acb9c27945d513b1c2b<>res://.godot/imported/NightBorne.png-5b8280bca152ccececbc41dc5a7bafa1.ctex::
 ::res://Assets/Sprites/7- NPC sister/::1764043976
-::res://Assets/Sprites/8 - NPC Blacksmith/::1764045120
+::res://Assets/Sprites/8 - NPC Blacksmith/::1764958013
 BLACKSMITH.png::CompressedTexture2D/CompressedTexture2D::3963402074082751919::1764044190::1764045120::1::::<><><>0<>0<>194f70f069cb4d480b8d9343574afecb<>res://.godot/imported/BLACKSMITH.png-8df81bf7f22506bdac7d63fdddad1722.ctex::
 ::res://Assets/Sprites/9 - NPC King/::1764045226
 Elder King on Ornate Throne_spritesheet.png::CompressedTexture2D/CompressedTexture2D::3232745869166946479::1764045221::1764045226::1::::<><><>0<>0<>1f79c58933f84da0b18cc40ad5ae7963<>res://.godot/imported/Elder King on Ornate Throne_spritesheet.png-a24660f73626ce7b511e9ead2c2b306b.ctex::
 Royal King on Ornate Throne.png::CompressedTexture2D/CompressedTexture2D::4390755744712079384::1764044952::1764045120::1::::<><><>0<>0<>819d23111a39abf6f0388bf11529c4c0<>res://.godot/imported/Royal King on Ornate Throne.png-c2335d2e8232b3a2f7a59b781ac5f54c.ctex::
-::res://Scenes/::1764187752
+::res://Assets/Sprites/10 -NPC Witch/::1765079352
+pixilart-sprite.png::CompressedTexture2D/CompressedTexture2D::6892970280618648180::1764958034::1765079352::1::::<><><>0<>0<>615f9b2e1e167e90db5fe663c2dcffe9<>res://.godot/imported/pixilart-sprite.png-8f973dd40c7315a2d1e230cf2d2fb024.ctex::
+::res://Scenes/::1764339986
 bat.gd::GDScript/GDScript::5759672979783624065::1763615340::0::1::::<>CharacterBody2D<><>0<>0<><>::
 bat.tscn::PackedScene/PackedScene::331428270908201370::1764045460::0::1::::<><><>0<>0<><>::uid://coca8cgj0dnph::::res://Scenes/bat.gd<>uid://bgn6ccm88dlgn::::res://Assets/Sprites/4-Bat/Bat_Sprite_Sheet.png
 Boss.gd::GDScript/GDScript::887698029673864363::1763062174::0::1::::<>CharacterBody2D<><>0<>0<><>::
@@ -137,13 +172,13 @@ enemy_door_scene.tscn::PackedScene/PackedScene::1657986304685308413::1764045460:
 enemy_door_scene_2.gd::GDScript/GDScript::3741834750795961440::1763698525::0::1::::<>Area2D<><>0<>0<><>::
 global.gd::GDScript/GDScript::7051752248074368992::1763741659::0::1::::<>Node<><>0<>0<><>::
 global.tscn::PackedScene/PackedScene::9179723458160184398::1762977796::0::1::::<><><>0<>0<><>::uid://c7p6lgu6fd3mq::::res://Scenes/global.gd
-Infinite_Mode.tscn::PackedScene/PackedScene::5846460976591287553::1764187752::0::1::::<><><>0<>0<><>::uid://qx8ypcr0pvck::::res://Scenes/player.tscn<>uid://cv1qkb3qf47jm::::res://Assets/Music and sound/Jump Sound Effect (High Quality) - JUKEBOX (youtube).mp3<>uid://pdadwp2tmsm8::::res://Assets/Music and sound/Dash.mp3<>uid://bkcf08ggk6ftq::::res://Assets/Level_design/1_Mine_Tileset_1.png<>uid://cudqlup4x37bs::::res://Scenes/pause_menu_scene.tscn<>uid://1f4vxkvcs2i3::::res://Assets/Music and sound/Level_1_Music.mp3
+Infinite_Mode.tscn::PackedScene/PackedScene::5846460976591287553::1764339986::0::1::::<><><>0<>0<><>::uid://qx8ypcr0pvck::::res://Scenes/player.tscn<>uid://cv1qkb3qf47jm::::res://Assets/Music and sound/Jump Sound Effect (High Quality) - JUKEBOX (youtube).mp3<>uid://pdadwp2tmsm8::::res://Assets/Music and sound/Dash.mp3<>uid://bkcf08ggk6ftq::::res://Assets/Level_design/1_Mine_Tileset_1.png<>uid://cudqlup4x37bs::::res://Scenes/pause_menu_scene.tscn<>uid://1f4vxkvcs2i3::::res://Assets/Music and sound/Level_1_Music.mp3
 level_1.gd::GDScript/GDScript::5066324590377320938::1762884070::0::1::::<>Node2D<><>0<>0<><>::
-level_1.tscn::PackedScene/PackedScene::3778236930670861601::1764187752::0::1::::<><><>0<>0<><>::uid://qx8ypcr0pvck::::res://Scenes/player.tscn<>uid://cv1qkb3qf47jm::::res://Assets/Music and sound/Jump Sound Effect (High Quality) - JUKEBOX (youtube).mp3<>uid://pdadwp2tmsm8::::res://Assets/Music and sound/Dash.mp3<>uid://bkcf08ggk6ftq::::res://Assets/Level_design/1_Mine_Tileset_1.png<>uid://eysts6v5445c::::res://Scenes/bat.tscn<>uid://d32tl21kgxxu7::::res://Scenes/npc.tscn<>uid://m8k45hnpdqu0::::res://Scenes/enemy_door_scene2.tscn<>uid://1f4vxkvcs2i3::::res://Assets/Music and sound/Level_1_Music.mp3
+level_1.tscn::PackedScene/PackedScene::3778236930670861601::1764339986::0::1::::<><><>0<>0<><>::uid://qx8ypcr0pvck::::res://Scenes/player.tscn<>uid://cv1qkb3qf47jm::::res://Assets/Music and sound/Jump Sound Effect (High Quality) - JUKEBOX (youtube).mp3<>uid://pdadwp2tmsm8::::res://Assets/Music and sound/Dash.mp3<>uid://bkcf08ggk6ftq::::res://Assets/Level_design/1_Mine_Tileset_1.png<>uid://eysts6v5445c::::res://Scenes/bat.tscn<>uid://d32tl21kgxxu7::::res://Scenes/npc.tscn<>uid://m8k45hnpdqu0::::res://Scenes/enemy_door_scene2.tscn<>uid://1f4vxkvcs2i3::::res://Assets/Music and sound/Level_1_Music.mp3
 level_2.tscn::PackedScene/PackedScene::6968713146750300937::1764045460::0::1::::<><><>0<>0<><>::uid://bkcf08ggk6ftq::::res://Assets/Level_design/1_Mine_Tileset_1.png<>uid://eysts6v5445c::::res://Scenes/bat.tscn<>uid://dg6ww0ogxt5rq::::res://Scenes/Slime.tscn<>uid://cicc4txoc1epm::::res://Scenes/enemy_door_fin.tscn<>uid://qx8ypcr0pvck::::res://Scenes/player.tscn<>uid://cmveuis2yau28::::res://Assets/Music and sound/Chiptune Dream Loop.wav
 level_3.tscn::PackedScene/PackedScene::3773824112720110114::1762295008::0::1::::<><><>0<>0<><>::
 main_menu.gd::GDScript/GDScript::3291122025250131324::1764187705::0::1::::<>Control<><>0<>0<><>::
-Main_Menu.tscn::PackedScene/PackedScene::2782405331210605549::1764187752::0::1::::<><><>0<>0<><>::uid://bm5ikfsvpglaq::::res://Scenes/main_menu.gd<>uid://co05qipl8sxwm::::res://Assets/Image/Menu_scene.png<>uid://c0lv4uyu1vfao::::res://Assets/Music and sound/Menu_Music.mp3
+Main_Menu.tscn::PackedScene/PackedScene::2782405331210605549::1764339986::0::1::::<><><>0<>0<><>::uid://bm5ikfsvpglaq::::res://Scenes/main_menu.gd<>uid://co05qipl8sxwm::::res://Assets/Image/Menu_scene.png<>uid://c0lv4uyu1vfao::::res://Assets/Music and sound/Menu_Music.mp3
 npc.gd::GDScript/GDScript::4310914345547759406::1763091825::0::1::::<>Node<><>0<>0<><>::
 npc.tscn::PackedScene/PackedScene::9181462597658012796::1764045460::0::1::::<><><>0<>0<><>::uid://b2oienvpumst7::::res://Scenes/npc.gd<>uid://bmb738ddsfhfb::::res://Assets/Sprites/9 - NPC King/Elder King on Ornate Throne_spritesheet.png
 pause_menu_scene.gd::GDScript/GDScript::2750115638623040025::1763743292::0::1::::<>CanvasLayer<><>0<>0<><>::
